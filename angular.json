@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "onlineShop:build:production"
+              "buildTarget": "onlineShop:build:production"
             },
             "development": {
-              "browserTarget": "onlineShop:build:development"
+              "buildTarget": "onlineShop:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "onlineShop:build"
+            "buildTarget": "onlineShop:build"
           }
         },
         "test": {
